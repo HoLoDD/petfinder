@@ -7,7 +7,7 @@ const Test = observer((props) => {
   return (
     <Layout>
       <Head>
-        <title>Petfinder | Знайди свою тваринку!</title>
+        <title>Petfinder | TEST свою тваринку!</title>
       </Head>
       <MainSearch />
       <Container>{timer.secondsPassed}{JSON.stringify(props)}</Container>
